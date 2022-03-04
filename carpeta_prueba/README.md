@@ -1,9 +1,9 @@
-### Inicialización de proyecto
+## Inicialización de proyecto
 ```bash
 npm init -y
 ```
 
-### Repositorio en GIT
+## Repositorio en GIT
 Si se quiere instalar GIT en el proyecto y subirlo a un repositorio existente.
 Crear un archivo README.md y seguir los siguientes pasos con comandos en la terminal.
 
@@ -29,49 +29,49 @@ Para evitar que la carpeta de dependencias se cargue al repositorio:
 2. Editar el archivo y agregar los elementos que deben ser ignorados al hacer push. En este caso, se ignora la carpeta node_modules.
 
 
-### Instalación de dependencias
+## Instalación de dependencias
 
-Instalación de Bootstrap
+### Instalación de Bootstrap
 ```bash
 npm install bootstrap
 ```
 
-Instalación de Express
+### Instalación de Express
 ```bash
 npm install express
 ```
 
-Instalación de Express-Handlebars
+### Instalación de Express-Handlebars
 ```bash
 npm install express-handlebars@5.3.4
 ```
 
-Instalación de JQuery
+### Instalación de JQuery
 ```bash
 npm install jquery
 ```
 
-Instalación de Nodemon
+### Instalación de Nodemon
 ```bash
 npm install nodemon
 ```
 
-Instalación de PostgreSQL
+### Instalación de PostgreSQL
 ```bash
 npm install pg
 ```
 
-Instalación de Prettier
+### Instalación de Prettier
 ```bash
 npm install -D prettier
 ```
 
-### Configuración de Nodemon
+## Configuración de Nodemon
 Con la dependencia instalada, se edita el archivo package.json y se agrega el siguiente script:
 "start": "nodemon index.js"
 
 
-### Configuración de Prettier
+## Configuración de Prettier
 Con la dependencia instalada:
 1. Se crear un archivo .prettierrc
 2. Se edita el archivo .prettierrc y se agrega la siguiente configuración:
