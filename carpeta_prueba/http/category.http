@@ -1,0 +1,22 @@
+### Get categories
+GET http://localhost:8080/api/v1/categories HTTP/1.1
+
+### Post Category
+POST http://localhost:8080/api/v1/categories HTTP/1.1
+content-type: application/json
+
+{
+  "id": 8,
+  "name": "Claudia Bicycles"
+}
+
+### Put Category
+PUT http://localhost:8080/api/v1/categories/8 HTTP/1.1
+content-type: application/json
+
+{
+  "name": "Claudia Bicis"
+}
+
+### Delete Category
+DELETE http://localhost:8080/api/v1/categories/8 HTTP/1.1

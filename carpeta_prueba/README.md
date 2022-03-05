@@ -84,5 +84,6 @@ Con la dependencia instalada:
   "bracketSpacing": true
 }
 ```
+3. En ajustes del editor, buscar Editor: Default Formatter y seleccionar la opción Prettier-Code formatter.
 
 
